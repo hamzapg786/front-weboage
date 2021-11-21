@@ -108,10 +108,11 @@ color: white;
 .box{
     width: 270px;
     height: 360px;
+    /* margin-right: 30px; */
     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
     position: absolute;
     top: -30px;
-    left: 1013px;
+    left: 1000px;
     border-radius: 10px;
     padding: 25px;
     display: flex;
@@ -125,10 +126,10 @@ color: white;
 }
 .heading{
     width: 270px;
-    height: 40px;
+    height: 60px;
     color: orange;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 8px;
     border-radius: 10px;
     margin-bottom: 20px;
     background-color: white;
@@ -176,16 +177,31 @@ color: white;
 .liw{
     color: white;
     padding-top: 10px;
+    text-align: center;
+    font-size: 18px;
 }
+
+.link{
+    text-align: center;
+}
+.link a{
+    font-size: 18px;
+    text-decoration: none;
+    color: orange;
+}
+
 .icons a{
     text-decoration: none;
     color: white;
 }
-.icons ion-icon{
+.icons span{
+
     color: white;
     font-size: 30px;
-    padding-top: 5px;
-    padding-left: 14px;
+    padding-top: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
     transition: .3s;
+    
 }
 
